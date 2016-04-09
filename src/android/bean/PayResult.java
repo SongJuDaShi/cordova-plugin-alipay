@@ -1,4 +1,4 @@
-package com.yumemor.cordova.bean;
+package org.apache.cordova.alipay;
 
 /**
  * 支付结果

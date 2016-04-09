@@ -20,7 +20,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Alipay">
-                <param name="android-package" value="com.yumemor.cordova.alipay.AlipayPlugin"/>
+                <param name="android-package" value="org.apache.cordova.alipay.AlipayPlugin"/>
             </feature>
         </config-file>
 		
@@ -54,12 +54,12 @@
 		<!--编译-->
 		<source-file src="src/android/libs/alipaysdk.jar" target-dir="libs" framework="true" />
 		
-        <source-file src="src/android/alipay/AlipayPlugin.java" target-dir="src/com/yumemor/cordova/alipay" />
-		<source-file src="src/android/alipay/PayRun.java" target-dir="src/com/yumemor/cordova/alipay" />
-		<source-file src="src/android/util/Base64.java" target-dir="src/com/yumemor/cordova/util" />
-		<source-file src="src/android/util/SignUtils.java" target-dir="src/com/yumemor/cordova/util" />
-		<source-file src="src/android/alipay/PayKeys.java" target-dir="src/com/yumemor/cordova/alipay" />
-		<source-file src="src/android/bean/PayResult.java" target-dir="src/com/yumemor/cordova/bean" />
+        <source-file src="src/android/alipay/AlipayPlugin.java" target-dir="src/org/apache/cordova/alipay" />
+		<source-file src="src/android/alipay/PayRun.java" target-dir="src/org/apache/cordova/alipay" />
+		<source-file src="src/android/util/Base64.java" target-dir="src/org/apache/cordova/alipay" />
+		<source-file src="src/android/util/SignUtils.java" target-dir="src/org/apache/cordova/alipay" />
+		<source-file src="src/android/alipay/PayKeys.java" target-dir="src/org/apache/cordova/alipay" />
+		<source-file src="src/android/bean/PayResult.java" target-dir="src/org/apache/cordova/alipay" />
 
     </platform>
 

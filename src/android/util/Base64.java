@@ -1,4 +1,4 @@
-package com.yumemor.cordova.util;
+package org.apache.cordova.alipay;
 
 public final class Base64 {
 

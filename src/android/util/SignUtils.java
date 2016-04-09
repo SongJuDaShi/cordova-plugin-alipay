@@ -1,4 +1,4 @@
-package com.yumemor.cordova.util;
+package org.apache.cordova.alipay;
 
 import java.security.KeyFactory;
 import java.security.PrivateKey;

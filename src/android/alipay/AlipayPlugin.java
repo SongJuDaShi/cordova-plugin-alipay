@@ -1,4 +1,4 @@
-package com.yumemor.cordova.alipay;
+package org.apache.cordova.alipay;
 
 import java.io.UnsupportedEncodingException;
 
