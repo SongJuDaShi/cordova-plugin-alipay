@@ -1,12 +1,10 @@
 package org.apache.cordova.alipay;
 
 import org.apache.cordova.CallbackContext;
-import org.json.JSONObject;
 
 import android.app.Activity;
 
 import com.alipay.sdk.app.PayTask;
-import com.yumemor.cordova.bean.PayResult;
 
 /**
  * 支付线程

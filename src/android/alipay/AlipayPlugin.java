@@ -1,16 +1,12 @@
 package org.apache.cordova.alipay;
 
 import java.io.UnsupportedEncodingException;
-
 import java.net.URLEncoder;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
-
 import org.json.JSONArray;
 import org.json.JSONObject;
-
-import com.yumemor.cordova.util.SignUtils;
 
 /**
  * 
